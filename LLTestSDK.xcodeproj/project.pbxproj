@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E478BA241E517EEC0065C128 /* LLTestSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E478BA231E517EEC0065C128 /* LLTestSDK.m */; };
 		E478BA251E517EEC0065C128 /* LLTestSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E478BA221E517EEC0065C128 /* LLTestSDK.h */; };
+		E478BA2F1E517F2A0065C128 /* LLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E478BA2E1E517F2A0065C128 /* LLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,8 @@
 /* Begin PBXFileReference section */
 		E478BA1F1E517EEC0065C128 /* libLLTestSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLLTestSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E478BA221E517EEC0065C128 /* LLTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTestSDK.h; sourceTree = "<group>"; };
-		E478BA231E517EEC0065C128 /* LLTestSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTestSDK.m; sourceTree = "<group>"; };
+		E478BA2D1E517F2A0065C128 /* LLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLView.h; sourceTree = "<group>"; };
+		E478BA2E1E517F2A0065C128 /* LLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				E478BA221E517EEC0065C128 /* LLTestSDK.h */,
-				E478BA231E517EEC0065C128 /* LLTestSDK.m */,
+				E478BA2D1E517F2A0065C128 /* LLView.h */,
+				E478BA2E1E517F2A0065C128 /* LLView.m */,
 			);
 			path = LLTestSDK;
 			sourceTree = "<group>";
@@ -124,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E478BA241E517EEC0065C128 /* LLTestSDK.m in Sources */,
+				E478BA2F1E517F2A0065C128 /* LLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +173,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -212,7 +214,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -258,6 +260,7 @@
 				E478BA2A1E517EEC0065C128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
